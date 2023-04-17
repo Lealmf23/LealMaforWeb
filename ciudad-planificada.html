@@ -11,6 +11,7 @@
   <title>Ciudad Planificada | LealMafor</title>
   <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="/css/custom.css" />
+   <link rel="stylesheet" href="/vendor/aos/aos.css">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-08TBT8D2GJ"></script>
   <script>
@@ -42,14 +43,13 @@
 
 <body>
   <!--Menu-->
-  <header class="container position-sticky z-1 top-0 bg-gradient-primary">
-    <div class="row"  data-bs-theme="dark">
+  <header class="container-fluid position-sticky z-1 top-0">
+    <div class="row" data-bs-theme="dark">
       <div class="col-12">
-        <nav
-          class="navbar navbar-expand-lg glass-effect rounded-3 blur-rounded position-absolute my-2 top-0 border-bottom py-2 py-2 start-0 end-0 mx-2">
+        <nav class="navbar navbar-expand-lg glass-effect position-absolute top-0  start-0 end-0">
           <div class="container">
             <a class="navbar-brand mx-2" href="/">
-              <img src="/images/LealLogo_blanco_naranja.svg" alt="LealMafor Logo" width="auto" height="20" />
+              <img src="/images/LealLogo_blanco_naranja.svg" alt="LealMafor Logo" width="auto" height="20">
             </a>
             <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse"
               data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false"
@@ -61,45 +61,53 @@
               </span>
             </button>
             <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0 justify-content-end" id="navigation">
-              <ul class="navbar-nav navbar-nav-hover">
+              <ul class="navbar-nav navbar-nav-hover ">
                 <li class="nav-item mx-2">
                   <a class="nav-link" href="/"><span class="bi-house"></span> Inicio</a>
                 </li>
 
                 <li class="nav-item mx-2">
-                  <a class="nav-link" href="/series.html"><span class="bi-play-circle"></span> Series</a>
+                  <a class="nav-link " href="/series.html"><span class="bi-play-circle"></span>
+                    Series</a>
                 </li>
                 <li class="nav-item mx-2">
-                  <a class="nav-link" href="/workshop.html"><span class="bi-steam"></span> Workshop</a>
+                  <a class="nav-link" href="/workshop.html"><span class="bi-steam"></span>
+                    Workshop</a>
                 </li>
 
                 <li class="nav-item mx-2">
                   <a class="nav-link" href="/setup.html"><span class="bi-pc-display"></span> Setup</a>
                 </li>
                 <li class="nav-item mx-2">
-                  <a class="nav-link" href="/sobre-mi.html"><span class="bi-person-fill"></span> Sobre Mi</a>
+                  <a class="nav-link" href="/sobre-mi.html"><span class="bi-person-fill"></span> Sobre
+                    Mi</a>
                 </li>
               </ul>
 
-              <ul class="navbar-nav d-lg-block d-none">
-                <li class="nav-item"></li>
-              </ul>
+
             </div>
           </div>
         </nav>
+
       </div>
     </div>
   </header>
 
-  <div class="mediabanner-container mb-5">
+  <div class="container">
+  <div class="mediabanner-container rounded-4">
     <div class="container mediabanner-content">
-      <h1><span class="bi-play-circle"></span> Nueva Serie: Ciudad Planificada</h1>
+      <h1 data-aos="zoom-in"><span class="bi-play-circle"></span> Nueva Serie: Ciudad Planificada</h1>
     </div>
   </div>
-  <div class="text-white container mb-4">
-    <h2 class="text-white mb-4">Ciudad Planificada: Entre Ríos</h2>
 
-    <div class="row justify-content-center mb-4">
+  </div>
+
+
+
+  <div class="text-white container mb-4">
+    <h2 class="text-white mb-4" data-aos="fade-up">Ciudad Planificada: Entre Ríos</h2>
+
+    <div class="row justify-content-center mb-4" data-aos="fade-up">
       <div class="col-md-6">
         <img src="/images/series/serie-bahia-de-los-rios.webp" alt="ciudad planificada"
           style="width: 100%; height: auto; margin-bottom: 20px" />
@@ -130,7 +138,7 @@
         </div>
       </div>
     </div>
-    <div class="row justify-content-center mb-4">
+    <div class="row justify-content-center mb-4" data-aos="fade-up">
       <h3>Mods Gráficos y configuración</h3>
       <div class="col-md-10">
         <p>
@@ -139,7 +147,7 @@
         </p>
       </div>
     </div>
-    <div class="row justify-content-center mb-4">
+    <div class="row justify-content-center mb-4" data-aos="fade-up">
       <h4>Configuración Relight</h4>
       <div class="col-md-10">
         <img src="/images/series/relight.webp" alt="configuración relight"
@@ -214,6 +222,8 @@
     </div>
   </div>
   <script src="/js/bootstrap.min.js"></script>
+  <script src="/vendor/aos/aos.js"></script>
+  <script src="/js/main.js"></script>
 </body>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5D799N9" height="0" width="0"

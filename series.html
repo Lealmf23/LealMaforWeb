@@ -11,6 +11,7 @@
     <title>Series | LealMafor</title>
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="/vendor/aos/aos.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-08TBT8D2GJ"></script>
     <script>
@@ -35,11 +36,11 @@
 <body>
 
     <!--Menu-->
-    <header class="container position-sticky z-1 top-0 bg-gradient-primary">
+    <header class="container-fluid position-sticky z-1 top-0 bg-gradient-primary" >
         <div class="row" data-bs-theme="dark">
             <div class="col-12">
                 <nav
-                    class="navbar navbar-expand-lg glass-effect rounded-3 blur-rounded position-absolute my-2 top-0 border-bottom py-2  py-2 start-0 end-0 mx-2">
+                    class="navbar navbar-expand-lg glass-effect position-absolute top-0 border-bottom start-0 end-0">
                     <div class="container">
                         <a class="navbar-brand mx-2" href="/">
                             <img src="/images/LealLogo_blanco_naranja.svg" alt="LealMafor Logo" width="auto"
@@ -79,11 +80,7 @@
                                 </li>
                             </ul>
 
-                            <ul class="navbar-nav d-lg-block d-none">
-                                <li class="nav-item">
 
-                                </li>
-                            </ul>
                         </div>
                     </div>
                 </nav>
@@ -92,16 +89,36 @@
         </div>
     </header>
 
-    <div class="mediabanner-container mb-5">
+    <!--Media Banner-->
+    <div class="container">
+    <div class="mediabanner-container rounded-4">
         <div class="container mediabanner-content">
-            <h1><span class="bi-play-circle"></span> Tutoriales y Series</h1>
+            <h1 data-aos="zoom-in"><span class="bi-play-circle" ></span> Tutoriales y Series</h1>
         </div>
     </div>
-    <div class="container mb-4">
-        <h2 class="text-white mb-4">Tutoriales de Cities Skylines en Youtube</h2>
-        <div class="row">
-            <div class="col-lg-4 col-md-6 mb-4">
-                <a class="links" href="https://youtu.be/u1CFg3CFlWM" target="_blank">
+    </div>
+
+
+<!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+
+        <div class="row" data-aos="fade-in">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">Todos los videos</li>
+              <li data-filter=".filter-serie">Series</li>
+              <li data-filter=".filter-tuto">Tutoriales</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" >
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-tuto" >
+            <div class="portfolio-wrap">
+              <a class="links" href="https://youtu.be/u1CFg3CFlWM" target="_blank">
                     <div class="info-card overflow-hidden">
                         <div class="info-card-image">
                             <img src="/images/tutoriales/imt.webp" alt="INTERSECTION MARKING TOOL & NODE CONTROLLER3">
@@ -113,10 +130,14 @@
                         </div>
                     </div>
                 </a>
+              </div>
             </div>
-            <div class="col-lg-4 col-md-6 mb-4">
-                <a class="links" href="https://youtu.be/K3p0uEmbpX8" target="_blank">
-                    <div class="info-card overflow-hidden">
+          
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-tuto">
+            <div class="portfolio-wrap">
+            <a class="links" href="https://youtu.be/K3p0uEmbpX8" target="_blank">
+                    <div class="info-card overflow-hidden card-wrap">
                         <div class="info-card-image">
                             <img src="/images/tutoriales/renderit.webp" alt="EL MEJOR MOD GRÁFICO PARA CITIES SKYLINES">
                         </div>
@@ -128,8 +149,11 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-4 col-md-6 mb-4">
-                <a class="links" href="https://youtu.be/IOnD0Twvkak" target="_blank">
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-tuto">
+            <div class="portfolio-wrap">
+                              <a class="links" href="https://youtu.be/IOnD0Twvkak" target="_blank">
                     <div class="info-card overflow-hidden">
                         <div class="info-card-image">
                             <img src="/images/tutoriales/tmpe.webp"
@@ -142,8 +166,12 @@
                         </div>
                     </div>
                 </a>
+              </div>
             </div>
-            <div class="col-lg-4 col-md-6 mb-4">
+       
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-tuto">
+            <div class="portfolio-wrap">
                 <a class="links" href="https://www.youtube.com/watch?v=hWymkPV26Vk" target="_blank">
                     <div class="info-card overflow-hidden">
                         <div class="info-card-image">
@@ -158,7 +186,10 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-4 col-md-6 mb-4">
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-tuto">
+            <div class="portfolio-wrap">
                 <a class="links" href="https://www.youtube.com/watch?v=wZ9s4jTpRVE" target="_blank">
                     <div class="info-card overflow-hidden">
                         <div class="info-card-image">
@@ -173,7 +204,10 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-4 col-md-6 mb-4">
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-tuto">
+            <div class="portfolio-wrap">
                 <a class="links" href="https://www.youtube.com/watch?v=urSoslLTaxw" target="_blank">
                     <div class="info-card overflow-hidden">
                         <div class="info-card-image">
@@ -187,7 +221,10 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-4 col-md-6 mb-4">
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-tuto">
+            <div class="portfolio-wrap">
                 <a class="links" href="https://www.youtube.com/watch?v=NY90jpdHYdI" target="_blank">
                     <div class="info-card overflow-hidden">
                         <div class="info-card-image">
@@ -201,8 +238,10 @@
                     </div>
                 </a>
             </div>
+          </div>
 
-            <div class="col-lg-4 col-md-6 mb-4">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-tuto">
+            <div class="portfolio-wrap">
                 <a class="links" href="https://www.youtube.com/watch?v=yLP-yNfskdw" target="_blank">
                     <div class="info-card overflow-hidden">
                         <div class="info-card-image">
@@ -216,9 +255,11 @@
                     </div>
                 </a>
             </div>
+          </div>
 
-            <div class="col-lg-4 col-md-6 mb-4">
-                <a class="links" href="https://www.youtube.com/watch?v=pldD39qs5Dk" target="_blank">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-tuto">
+            <div class="portfolio-wrap">
+                              <a class="links" href="https://www.youtube.com/watch?v=pldD39qs5Dk" target="_blank">
                     <div class="info-card overflow-hidden">
                         <div class="info-card-image">
                             <img src="/images/tutoriales/modscarreteras.webp" alt="Top MODS">
@@ -230,20 +271,15 @@
                         </div>
                     </div>
                 </a>
+                
+
+
             </div>
+          </div>
 
-        </div>
-
-    </div>
-
-    <div class="container mb-4">
-
-        <h2 class="text-white mb-4">Series de Cities Skylines en Youtube</h2>
-
-
-        <div class="row">
-            <div class="col-lg-4 col-md-6 mb-4">
-                <a class="links" href="https://www.youtube.com/playlist?list=PLM_BCXn__52YtHnDVTFRbAIpsJIZlRR7o"
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-serie">
+            <div class="portfolio-wrap">
+                              <a class="links" href="https://www.youtube.com/playlist?list=PLM_BCXn__52YtHnDVTFRbAIpsJIZlRR7o"
                     target="_blank">
                     <div class="info-card overflow-hidden">
                         <div class="info-card-image">
@@ -257,9 +293,15 @@
                         </div>
                     </div>
                 </a>
+                
+
+                
             </div>
-            <div class="col-lg-4 col-md-6 mb-4">
-                <a class="links" href="https://youtube.com/playlist?list=PLM_BCXn__52ZxssfU8wN-B3oDeRZOIh_T"
+          </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-serie">
+            <div class="portfolio-wrap">
+                              <a class="links" href="https://youtube.com/playlist?list=PLM_BCXn__52ZxssfU8wN-B3oDeRZOIh_T"
                     target="_blank">
                     <div class="info-card overflow-hidden">
                         <div class="info-card-image">
@@ -273,9 +315,16 @@
                         </div>
                     </div>
                 </a>
+                
+
+                
             </div>
-            <div class="col-lg-4 col-md-6 mb-4">
-                <a class="links" href="https://www.youtube.com/playlist?list=PLM_BCXn__52ZGoJHLoyAr6kZYe1KJF_BO"
+          </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-serie">
+            <div class="portfolio-wrap">
+              
+                                <a class="links" href="https://www.youtube.com/playlist?list=PLM_BCXn__52ZGoJHLoyAr6kZYe1KJF_BO"
                     target="_blank">
                     <div class="info-card overflow-hidden">
                         <div class="info-card-image">
@@ -289,9 +338,14 @@
                         </div>
                     </div>
                 </a>
+
+                
             </div>
-            <div class="col-lg-4 col-md-6 mb-4">
-                <a class="links" href="https://youtube.com/playlist?list=PLM_BCXn__52ZhOEG-x3Dmbi4NEDs1R78M"
+          </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-serie">
+            <div class="portfolio-wrap">
+                              <a class="links" href="https://youtube.com/playlist?list=PLM_BCXn__52ZhOEG-x3Dmbi4NEDs1R78M"
                     target="_blank">
                     <div class="info-card overflow-hidden">
                         <div class="info-card-image">
@@ -305,9 +359,15 @@
                         </div>
                     </div>
                 </a>
+                
+
+                
             </div>
-            <div class="col-lg-4 col-md-6 mb-4">
-                <a class="links" href="https://www.youtube.com/playlist?list=PLM_BCXn__52aUwOCl9n-H8miGUYIjkEyX"
+          </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-serie">
+            <div class="portfolio-wrap">
+                              <a class="links" href="https://www.youtube.com/playlist?list=PLM_BCXn__52aUwOCl9n-H8miGUYIjkEyX"
                     target="_blank">
                     <div class="info-card overflow-hidden">
                         <div class="info-card-image">
@@ -321,9 +381,15 @@
                         </div>
                     </div>
                 </a>
+                
+
+                
             </div>
-            <div class="col-lg-4 col-md-6 mb-4">
-                <a class="links" href="https://www.youtube.com/playlist?list=PLM_BCXn__52Y9S2jFKcvZ0zAI7bnJ-d8L"
+          </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-serie">
+            <div class="portfolio-wrap">
+                              <a class="links" href="https://www.youtube.com/playlist?list=PLM_BCXn__52Y9S2jFKcvZ0zAI7bnJ-d8L"
                     target="_blank">
                     <div class="info-card overflow-hidden">
                         <div class="info-card-image">
@@ -337,9 +403,37 @@
                         </div>
                     </div>
                 </a>
+                
+
+                
             </div>
-            <div class="col-lg-4 col-md-6 mb-4">
-                <a class="links" href="https://www.youtube.com/playlist?list=PLM_BCXn__52Zo6rdlINt0wZuXXgKQBBAO"
+          </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-serie">
+            <div class="portfolio-wrap">
+              
+                                <a class="links" href="https://www.youtube.com/playlist?list=PLM_BCXn__52ahPI8lQADpsdCdyr2AO08O"
+                    target="_blank">
+                    <div class="info-card overflow-hidden card-wrap">
+                        <div class="info-card-image">
+                            <div class="info-card-status bg-danger">Finalizada</div>
+                            <img src="/images/series/serie-bahia.webp" alt="Serie Bahia del Carmen">
+                        </div>
+                        <div class="info-card-body p-3 text-white">
+                            <div class="info-card-body-title">Bahia del Carmen</div>
+                            <div class="info-card-body-meta">Mi primera serie creada en Cities Skylines con detailing
+                                <span class='bi bi-caret-right'></span></div>
+                        </div>
+                    </div>
+                </a>
+
+                
+            </div>
+          </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-serie">
+            <div class="portfolio-wrap">
+                              <a class="links" href="https://www.youtube.com/playlist?list=PLM_BCXn__52Zo6rdlINt0wZuXXgKQBBAO"
                     target="_blank">
                     <div class="info-card overflow-hidden">
                         <div class="info-card-image">
@@ -353,9 +447,15 @@
                         </div>
                     </div>
                 </a>
+                
+
+                
             </div>
-            <div class="col-lg-4 col-md-6 mb-4">
-                <a class="links" href="https://www.youtube.com/playlist?list=PLM_BCXn__52ahPI8lQADpsdCdyr2AO08O"
+          </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-serie">
+            <div class="portfolio-wrap">
+                              <a class="links" href="https://www.youtube.com/playlist?list=PLM_BCXn__52ahPI8lQADpsdCdyr2AO08O"
                     target="_blank">
                     <div class="info-card overflow-hidden">
                         <div class="info-card-image">
@@ -369,28 +469,21 @@
                         </div>
                     </div>
                 </a>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-4">
-                <a class="links" href="https://www.youtube.com/playlist?list=PLM_BCXn__52ahPI8lQADpsdCdyr2AO08O"
-                    target="_blank">
-                    <div class="info-card overflow-hidden">
-                        <div class="info-card-image">
-                            <div class="info-card-status bg-danger">Finalizada</div>
-                            <img src="/images/series/serie-bahia.webp" alt="Serie Bahia del Carmen">
-                        </div>
-                        <div class="info-card-body p-3 text-white">
-                            <div class="info-card-body-title">Bahia del Carmen</div>
-                            <div class="info-card-body-meta">Mi primera serie creada en Cities Skylines con detailing
-                                <span class='bi bi-caret-right'></span></div>
-                        </div>
-                    </div>
-                </a>
-            </div>
+                
 
+                
+            </div>
+          </div>
 
         </div>
 
-    </div>
+      </div>
+    </section>
+<!-- End Portfolio Section -->
+
+ 
+
+
 
 
 
@@ -423,6 +516,9 @@
         </div>
     </div>
     <script src="/js/bootstrap.min.js"></script>
+    <script src="/vendor/aos/aos.js"></script>
+    <script src="/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5D799N9" height="0" width="0"

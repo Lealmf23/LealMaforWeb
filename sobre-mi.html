@@ -11,6 +11,7 @@
   <title>Sobre mi | LealMafor</title>
   <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="/css/custom.css">
+   <link rel="stylesheet" href="/vendor/aos/aos.css">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-08TBT8D2GJ"></script>
   <script>
@@ -34,11 +35,10 @@
 
 <body>
   <!--Menu-->
-  <header class="container position-sticky z-1 top-0 bg-gradient-primary">
-    <div class="row"  data-bs-theme="dark">
+  <header class="container-fluid position-sticky z-1 top-0">
+    <div class="row" data-bs-theme="dark">
       <div class="col-12">
-        <nav
-          class="navbar navbar-expand-lg glass-effect rounded-3 blur-rounded position-absolute my-2 top-0 border-bottom py-2  py-2 start-0 end-0 mx-2">
+        <nav class="navbar navbar-expand-lg glass-effect position-absolute top-0  start-0 end-0">
           <div class="container">
             <a class="navbar-brand mx-2" href="/">
               <img src="/images/LealLogo_blanco_naranja.svg" alt="LealMafor Logo" width="auto" height="20">
@@ -59,25 +59,24 @@
                 </li>
 
                 <li class="nav-item mx-2">
-                  <a class="nav-link" href="/series.html"><span class="bi-play-circle"></span> Series</a>
+                  <a class="nav-link " href="/series.html"><span class="bi-play-circle"></span>
+                    Series</a>
                 </li>
                 <li class="nav-item mx-2">
-                  <a class="nav-link" href="/workshop.html"><span class="bi-steam"></span> Workshop</a>
+                  <a class="nav-link" href="/workshop.html"><span class="bi-steam"></span>
+                    Workshop</a>
                 </li>
 
                 <li class="nav-item mx-2">
                   <a class="nav-link" href="/setup.html"><span class="bi-pc-display"></span> Setup</a>
                 </li>
                 <li class="nav-item mx-2">
-                  <a class="nav-link active" href="/sobre-mi.html"><span class="bi-person-fill"></span> Sobre Mi</a>
+                  <a class="nav-link active" href="/sobre-mi.html"><span class="bi-person-fill"></span> Sobre
+                    Mi</a>
                 </li>
               </ul>
 
-              <ul class="navbar-nav d-lg-block d-none">
-                <li class="nav-item">
 
-                </li>
-              </ul>
             </div>
           </div>
         </nav>
@@ -86,15 +85,18 @@
     </div>
   </header>
 
-
-  <div class="mediabanner-container mb-5">
+<div class="container">
+  <div class="mediabanner-container rounded-4">
     <div class="container mediabanner-content">
-      <h1><span class="bi-person-fill"></span> Sobre mí</h1>
+      <h1 data-aos="zoom-in"><span class="bi-person-fill"></span> Sobre mí</h1>
     </div>
   </div>
+</div>
+
+
 
   <div class="mb-5 container">
-    <div class="justify-content-md-center row">
+    <div class="justify-content-md-center row" data-aos="fade-up">
       <div class="col-md-3"><img src="/images/Leo.webp" alt="LealMafor" class="foto"></div>
       <div class="text-white col-md-6">
         <p class="fs-5">Hola a todos! Mi nombre es León aunque muchos me dicen Leal, hago videos en Youtube
@@ -105,78 +107,83 @@
         <p class="fs-5">Te invito a seguirme en la red social que más de guste o unirte a mi servidor de Discord
           en caso de que quieras contactarme.</p>
         <p class="fs-5">
-          Mail de contacto <a href="mailto:contacto@lealmafor.com">contacto@lealmafor.com</a>
+          <i class="bi bi-envelope-at"></i> Mail de contacto <a href="mailto:contacto@lealmafor.com">contacto@lealmafor.com</a>
         </p>
       </div>
     </div>
   </div>
 
-  <div class="container mb-5">
-    <h2 class="text-center text-white">Mis redes sociales</h2>
-    <div class="row pb-2 justify-content-md-center">
-      <div class="col-4  col-sm-2">
-        <a class="btn-sociales " href="https://www.youtube.com/@lealmafor?sub_confirmation=1" target="_blank"
-          id="link-youtube">
-          <div class="btn-sociales-content mt-4">
-            <img class="btn-social-img" src="images/btn_youtube.webp" alt="YouTube" />
-            <div class="btn-social-icon d-flex align-items-center justify-content-center">
-              <img src="/images/redes/youtube.png" alt="Logo YouTube" style="height: 60px;width: auto;  ">
+        <div class="container mb-5" data-aos="fade-up">
+          <h2 class="text-center text-white "><strong>Mis redes sociales</strong></h2>
+          <div class="row pb-2 justify-content-md-center mt-4">
+            <div class="col-4 col-sm-2">
+              <a class="btn-sociales" href="https://www.youtube.com/@lealmafor?sub_confirmation=1" target="_blank"
+                id="link-youtube">
+                <div class="btn-sociales-content rounded-4">
+                  <img class="btn-social-img" src="images/btn_youtube.webp" alt="YouTube" />
+                  <div class="btn-social-icon d-flex text-center align-items-center justify-content-center">
+                    <p style="line-height: 1.2;margin-bottom: 5px;color:#FFF;"><span style="font-size:2.5em;"
+                        class="bi bi-youtube"></span><br>
+                      YouTube</p>
+
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-4 col-sm-2">
+              <a class="btn-sociales" href="https://www.tiktok.com/@lealmafor" target="_blank" id="link-tiktok">
+                <div class="btn-sociales-content  rounded-4">
+                  <img class="btn-social-img" src="images/btn_tiktok.webp" alt="TikTok" />
+                  <div class="btn-social-icon d-flex align-items-center text-center justify-content-center">
+                    <p style="line-height: 1.2;margin-bottom: 5px;color:#FFF;"><span style="font-size:2.5em;"
+                        class="bi bi-tiktok"></span><br>
+                      TikTok</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-4 col-sm-2">
+              <a class="btn-sociales" href="https://www.instagram.com/LealMafor/" target="_blank" id="link-instagram">
+                <div class="btn-sociales-content  rounded-4">
+                  <img class="btn-social-img" src="images/btn_instagram.webp" alt="Instagram" />
+                  <div class="btn-social-icon d-flex text-center align-items-center justify-content-center">
+                    <p style="line-height: 1.2;margin-bottom: 5px;color:#FFF;"><span style="font-size:2.5em;"
+                        class="bi bi-instagram"></span><br>
+                      Instagram</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-4 col-sm-2">
+              <a class="btn-sociales" href="https://discord.gg/aBYyh5makp" target="_blank" id="link-discord">
+                <div class="btn-sociales-content  rounded-4">
+                  <img class="btn-social-img" src="images/btn_discord.webp" alt="Discord" />
+                  <div class="btn-social-icon d-flex text-center align-items-center justify-content-center">
+                    <p style="line-height: 1.2;margin-bottom: 5px;color:#FFF;"><span style="font-size:2.5em;"
+                        class="bi bi-discord"></span><br>
+                      Discord</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-4 col-sm-2">
+              <a class="btn-sociales" href="https://steamcommunity.com/id/LealMafor" target="_blank" id="link-steam">
+                <div class="btn-sociales-content  rounded-4">
+                  <img class="btn-social-img" src="images/btn_steam.webp" alt="Steam" />
+                  <div class="btn-social-icon d-flex text-center align-items-center justify-content-center">
+                    <p style="line-height: 1.2;margin-bottom: 5px;color:#FFF;"><span style="font-size:2.5em;"
+                        class="bi bi-steam"></span><br>
+                      Steam</p>
+                  </div>
+                </div>
+              </a>
             </div>
           </div>
-        </a>
-      </div>
-
-      <div class="col-4 col-sm-2">
-        <a class="btn-sociales" href="https://www.tiktok.com/@lealmafor" target="_blank" id="link-tiktok">
-          <div class="btn-sociales-content mt-4">
-            <img class="btn-social-img" src="images/btn_tiktok.webp" alt="TikTok" />
-            <div class="btn-social-icon d-flex align-items-center justify-content-center">
-              <img src="/images/redes/tiktok.png" alt="Logo TikTok" style="height: 60px;width: auto;"
-                class="align-items-center">
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="col-4 col-sm-2">
-        <a class="btn-sociales" href="https://www.instagram.com/LealMafor/" target="_blank" id="link-instagram">
-          <div class="btn-sociales-content mt-4">
-            <img class="btn-social-img" src="images/btn_instagram.webp" alt="Instagram" />
-            <div class="btn-social-icon d-flex align-items-center justify-content-center">
-              <img src="/images/redes/instagram.png" alt="Logo Instagram" style="height: 60px;width: auto;  ">
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="col-4 col-sm-2">
-        <a class="btn-sociales" href="https://discord.gg/aBYyh5makp" target="_blank" id="link-discord">
-          <div class="btn-sociales-content mt-4">
-            <img class="btn-social-img" src="images/btn_discord.webp" alt="Discord" />
-            <div class="btn-social-icon d-flex align-items-center justify-content-center">
-              <img src="/images/redes/discord.png" alt="Logo Discord" style="height: 60px;width: auto;  ">
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="col-4 col-sm-2">
-        <a class="btn-sociales" href="https://steamcommunity.com/id/LealMafor" target="_blank" id="link-steam">
-          <div class="btn-sociales-content mt-4">
-            <img class="btn-social-img" src="images/btn_steam.webp" alt="Steam" />
-            <div class="btn-social-icon d-flex align-items-center justify-content-center">
-              <img src="/images/redes/steam.png" alt="Logo Steam" style="height: 60px;width: auto;  ">
-            </div>
-          </div>
-        </a>
-      </div>
-
-
-
-
-
-    </div>
-  </div>
+        </div>
 
 
 
@@ -212,6 +219,8 @@
   </div>
 
   <script src="/js/bootstrap.min.js"></script>
+    <script src="/vendor/aos/aos.js"></script>
+  <script src="/js/main.js"></script>
 </body>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5D799N9" height="0" width="0"

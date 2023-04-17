@@ -1,5 +1,5 @@
 let valueDisplays = document.querySelectorAll('.num')
-let interval = 10
+let interval = 1
 
 valueDisplays.forEach((valueDisplay) => {
     let startValue = 0
