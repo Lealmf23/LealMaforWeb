@@ -3,8 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
 
-body{
-  font-family: 'Poppins',sans-serif;
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(rgb(48, 50, 62), rgb(30, 31, 42));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #090b13;
+  color: #FFF;
 }
 
 .parrafos {
@@ -16,44 +21,47 @@ body{
   ;
 }
 
-.bg--footer {
-  background-color: #e74646;
-}
 
 .flecha {
   background-color: #b8c7c5;
 }
 
 .glass-effect {
-  background-color: #8d8c8c50;
-  backdrop-filter: blur(0.4rem);
-  -webkit-backdrop-filter: blur(0.4rem);
+  background-color: #00000060;
 }
 
-.glass-effect-2 {
-  background-color: #00000050;
-  backdrop-filter: blur(0.4rem);
-  -webkit-backdrop-filter: blur(0.4rem);
-}
 
 
 .main-image {
   position: relative;
-  background: url(/images/lealmafor-bannerv5.webp) no-repeat center;
+  background: url(/images/cities-skylines-ii.webp) no-repeat center;
   background-size: cover;
   overflow: hidden;
   margin-top: 56px;
+}
 
+.main-image2 {
+  position: relative;
+  background: url(/images/cities-skylines-ii-clean.webp) no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.main-image3 {
+  position: relative;
+  background: url(/images/cities-skylines-ii-media.webp) no-repeat center;
+  background-size: cover;
+  overflow: hidden;
 }
 
 .bg-fondo {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 
 .banner-home {
   display: flex;
-  height: 200px;
+  height: 300px;
   color: #FFF;
   text-align: center;
   justify-content: center;
@@ -81,7 +89,7 @@ body{
   overflow: hidden;
   height: 100px;
   transition: all 600ms;
-  border:1px solid rgb(174, 171, 171);
+  border: 1px solid rgb(174, 171, 171);
 
 }
 
@@ -106,7 +114,8 @@ body{
   border: 1px solid #222831;
   margin-bottom: 20px;
   text-decoration: none !important;
-  color: #222831;
+  background-color: #1e1f2a;
+  color: #FFF;
 
 }
 
@@ -192,11 +201,10 @@ body{
 }
 
 .mediabanner-container {
-  background: #e74646;
-  height: 150px;
+  height: 200px;
   display: flex;
   align-items: center;
-  margin-top:56px;
+  margin-top: 56px;
   margin-bottom: 30px;
 
 }
@@ -229,7 +237,7 @@ body{
   border-radius: 10px;
   margin-bottom: 5px;
   text-transform: uppercase;
-  color: #7b7e86;
+  color: #FFF;
   border: 1px solid #e74646;
   transition: all 0.3s ease-in-out;
 }
@@ -254,8 +262,9 @@ body{
 .info-miniCard {
   border: 2px solid rgba(249, 249, 249, 0.1);
   transition: all 600ms;
-  background: #FFF;
+  background-color: #00000060;
   overflow: hidden;
+
 }
 
 .info-miniCard-image {
@@ -272,6 +281,7 @@ body{
   font-size: 16px;
   margin: 10px;
   text-align: center;
+
 }
 
 .info-miniCard:hover {
@@ -281,25 +291,26 @@ body{
 
 .workshop-link {
   text-decoration: none;
-  color: #212529;
+  color: #FFF;
 }
 
 .info-card,
 .portfolio-wrap {
   border: 1px solid rgba(249, 249, 249, 0.1);
   transition: all 600ms;
+  background-color: #1e1f2a;
 
-  background: #FFF;
+
 }
 
 .info-card-destaque {
   border: 1px solid rgba(249, 249, 249, 0.1);
-  background: #FFF;
+  background-color: #1e1f2a;
 }
 
 .info-card-destaque-2 {
   border: 1px solid #b8c7c5;
-  background: #FFF;
+  background-color: #1e1f2a;
 }
 
 .info-card:hover,
@@ -330,7 +341,8 @@ body{
 .info-card-body-title {
   font-size: 20px;
   font-weight: 800;
-  color: #212529;
+  color: #FFF;
+
 }
 
 .info-card-body {
@@ -348,11 +360,9 @@ body{
   border-radius: 10px;
   padding: 20px;
   text-align: center;
-
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #dedede;
   border: 1px solid #b8c7c5;
 }
 
@@ -375,7 +385,7 @@ body{
 
 .slide-card {
   padding: 25px 10px;
-  background: #FFF;
+  background-color: #00000060;
 
 
 }
@@ -400,26 +410,27 @@ body{
 .carousel-indicators .active {
   width: 30px !important;
 }
-.img-yt-10000{
+
+.img-yt-10000 {
   width: 100%;
   max-width: 400px;
   margin: 10px;
 }
-.banner-promo{
-margin-top: 56px;
+
+.banner-promo {
+  margin-top: 56px;
   background: #e74646;
   color: #FFF;
   padding: 15px;
 }
 
-.banner-promo-btn{
+.banner-promo-btn {
   background-color: #FFF;
   text-decoration: none;
-  color:#e74646;
-  padding:10px 20px;
+  color: #e74646;
+  padding: 10px 20px;
   border-radius: 25px;
   margin-left: 20px;
   margin-right: 20px;
 
 }
-
