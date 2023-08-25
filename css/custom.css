@@ -62,6 +62,13 @@ body {
   overflow: hidden;
 }
 
+.main-image4 {
+  position: relative;
+  background: url(/images/starfield-01.webp) no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+}
+
 .bg-fondo {
   background-color: rgba(0, 0, 0, 0.1);
 }
