@@ -14,7 +14,15 @@
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/custom.css" />
     <link rel="stylesheet" href="../vendor/aos/aos.css" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-R3YYZCJ8BS"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
+        gtag('config', 'G-R3YYZCJ8BS');
+    </script>
 </head>
 
 <body>
@@ -222,19 +230,6 @@
     <script src="../js/main.js"></script>
 </body>
 
-<script>
-    function loadScript(a) {
-        var b = document.getElementsByTagName('head')[0],
-            c = document.createElement('script')
-            ; (c.type = 'text/javascript'),
-                (c.src = 'https://tracker.metricool.com/resources/be.js'),
-                (c.onreadystatechange = a),
-                (c.onload = a),
-                b.appendChild(c)
-    }
-    loadScript(function () {
-        beTracker.t({ hash: '1ad320bb998c0f44bd76185ade70cd40' })
-    })
-</script>
+
 
 </html>
